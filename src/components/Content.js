@@ -9,7 +9,7 @@ const Content = () => {
             <img src={ImageOne} alt="" className="h-full rounded mb-20 shadow"/>
             <div className="center-content">
                 <h2 className="text-2xl mb-2">Egg Muffins</h2>
-                <p className="mb-2">Crispy, delicious, and nutritious</p>
+                <p className="mb-2 px-10">Crispy, delicious, and nutritious</p>
                 <span>$16</span>
             </div>
         </div>
@@ -17,7 +17,7 @@ const Content = () => {
             <img src={ImageTwo} alt="" className="h-full rounded mb-20 shadow"/>
             <div className="center-content">
                 <h2 className="text-2xl mb-2">Egg Salad</h2>
-                <p className="mb-2">Healthy, light, and suitable for quick snack</p>
+                <p className="mb-2 px-10">Healthy, light, and suitable for quick snack</p>
                 <span>$11</span>
             </div>
         </div>
