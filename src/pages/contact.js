@@ -9,16 +9,16 @@ const Contact = () => {
 
     return (
         <div className="h-screen flex flex-col justify-center items-center bg-blue-300">
-            <h1 className="text-5xl uppercase font-black">
+            <h1 className="md:text-9xl text-3xl uppercase font-black">
                 Contact Us
             </h1>
-            <form className="mt-8 w-96" action="#" method="POST" onSubmit={handleSubmit}>
+            <form className="mt-8 md:w-96 w-3/5" action="#" method="POST" onSubmit={handleSubmit}>
                 <div className="flex flex-col items-center">
-                    <label htmlFor="name" className="block mt-4 w-3/4 mx-auto">
+                    <label htmlFor="name" className="block w-full mt-4">
                         <span className="text-white">Full name</span>
                         <input type="text" name="name" id="name" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
                     </label>
-                    <label htmlFor="email" className="block mx-auto w-3/4 mt-4">
+                    <label htmlFor="email" className="block w-full mt-4">
                         <span className="text-white">Email address</span>
                         <input type="text" name="email" id="email" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" />
                     </label>
